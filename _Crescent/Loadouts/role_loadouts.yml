@@ -32,6 +32,7 @@
 - type: roleLoadout
   id: JobKommissarNCWL
   groups:
+  - SanitarBackpack
   - NCWLShoes
   - KommissarCoatNCWL
   - SanitarHeadKommissar
@@ -70,6 +71,7 @@
 - type: roleLoadout
   id: JobAdministratorNCWL
   groups:
+  - SanitarBackpack
   - NCWLShoes
   - AdminOuterNCWL
   - AdminHatNCWL

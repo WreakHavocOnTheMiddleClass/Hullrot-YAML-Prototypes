@@ -69,7 +69,6 @@
   id: AdministratorGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitNCWLCommunications
-    back: ClothingBackpackSatchelLeatherFilledNCWLAdministrator
     id: AdministratorPDA
     neck: ClothingNeckAdminCapelet
     ears: ClothingHeadsetNCWL
