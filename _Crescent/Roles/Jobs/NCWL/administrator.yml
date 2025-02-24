@@ -73,5 +73,6 @@
     id: AdministratorPDA
     neck: ClothingNeckAdminCapelet
     ears: ClothingHeadsetNCWL
-    belt: WeaponPistolT91
+    belt: ClothingBeltNCWLWebbing
     pocket1: NCWLPassportAccepted
+    pocket2: WeaponPistolT91
