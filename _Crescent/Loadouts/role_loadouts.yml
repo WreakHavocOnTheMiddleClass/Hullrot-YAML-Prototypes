@@ -33,7 +33,7 @@
   id: JobKommissarNCWL
   groups:
   - NCWLShoes
-  - NCWLOuterClothingKapitan
+  - KommissarCoatNCWL
   - SanitarHeadKommissar
   - NCWLGloves
   - ContractorGlasses
