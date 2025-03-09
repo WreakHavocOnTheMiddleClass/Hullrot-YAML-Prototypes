@@ -8,17 +8,13 @@
   - type: Sprite
   - type: Item
     size: Huge
-  - type: Wieldable
-    unwieldOnUse: false
-  - type: GunWieldBonus
-    minAngle: -20
-    maxAngle: -35
+  - type: MultiHandedItem
   - type: Gun
-    minAngle: 24
-    maxAngle: 37
+    minAngle: 2
+    maxAngle: 4
     angleIncrease: 4
     angleDecay: 12
-    fireRate: 4
+    fireRate: 2
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -34,20 +30,20 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineLightRifleBoxConscript
+        startingItem: MagazineLightRifleBoxConscriptAP
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifleBox
+            - MagazineNCWLConscriptBox
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: CartridgeMachineGunArmorPiercingConscript
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - CartridgeMachineGun
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -61,10 +57,10 @@
     malus: -1
 
 - type: entity
-  name: NCWL .30 Conscript
+  name: NCWL .50 Conscript
   id: WeaponLightMachineGunConscript
   parent: BaseWeaponLightMachineGunConscript
-  description: A bulky .30 autocannon, ripped straight from a shuttle turret. You have to be insane to actually use this.
+  description: A bulky .50 autocannon, ripped straight from a shuttle turret. You have to be insane to actually use this.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/conscript.rsi
